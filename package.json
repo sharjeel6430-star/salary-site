@@ -1,0 +1,24 @@
+{
+  "name": "uk-salary-calculator",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "postbuild": "node scripts/build-search-index.mjs",
+    "start": "next start",
+    "test": "node --experimental-strip-types --test tests/tax.test.ts tests/extra.test.ts tests/new.test.ts tests/years.test.ts tests/doctors.test.ts tests/costOfLiving.test.ts tests/search.test.ts tests/ev.test.ts tests/tools2.test.ts tests/tools3.test.ts tests/everyday.test.ts tests/salaryInsights.test.ts tests/metaOverrides.test.ts tests/hourlyInsights.test.ts tests/guides.test.ts tests/titles.test.ts tests/takeHomeData.test.ts tests/noindex.test.ts tests/lastModified.test.ts tests/thresholdFreeze.test.ts tests/nationalInsurance.test.ts tests/selfEmployed.test.ts tests/companyCar.test.ts tests/capitalGains.test.ts tests/stampDuty.test.ts tests/pageCopy.test.ts"
+  },
+  "dependencies": {
+    "marked": "^15.0.12",
+    "next": "15.5.28",
+    "react": "19.1.10",
+    "react-dom": "19.1.10"
+  },
+  "devDependencies": {
+    "@types/node": "22.15.3",
+    "@types/react": "19.1.2",
+    "@types/react-dom": "19.1.2",
+    "typescript": "5.8.3"
+  }
+}
